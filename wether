@@ -1,7 +1,8 @@
 temperature = int(input("هوا سرده: "))
-temperature = int(input("هوا سرده: ")). strip()
 if temperature < 10 :
    massage= "هوا سرده"
+if temperature < 24 :
    massage= "هوا سرده"
-print(massage)
+else:
+   massage= "هوا معتدل"
 print(massage)
